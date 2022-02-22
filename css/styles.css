@@ -103,7 +103,7 @@
       letter-spacing: 0.02em;
       }
     
-      .nav-list .link{
+      .nav-list .link-current{
         padding-top: 32px; ;
         padding-bottom: 32px;
         display: block;
@@ -131,8 +131,8 @@
       margin-right: 40px;
      }
     
-      .nav-list .link:hover,
-      .nav-list .link:focus
+      .nav-list .link-current:hover,
+      .nav-list .link-current:focus
       {  
         color: var(--title-text-color);
         color:var(--accent-color);
