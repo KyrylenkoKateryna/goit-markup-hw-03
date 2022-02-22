@@ -116,9 +116,6 @@
        color: var(--title-text-color);
       }
     
-      .current{
-        color:var(--accent-color-header);
-      }
      .nav-list .navigate{
       
     margin-right: 50px;
