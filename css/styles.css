@@ -30,6 +30,10 @@
       margin: 0;
       }
     
+      header{
+        border: 1px solid var(--accent-border);
+      }
+
     .container{
       width: 1200px;
       padding-left: 15px;
@@ -45,18 +49,6 @@
       padding-bottom: 94px;
     }
     
-    .container-head{
-    
-      width: 1200px;
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
-    
- 
-
 
     .main-nav{
       display: block;
@@ -75,6 +67,8 @@
         line-height: 1.1;
         color:var(--title-text-color);
         text-decoration: none;
+        padding-top: 24px;
+        padding-bottom: 24px;
         
       } 
     
@@ -164,9 +158,8 @@
         letter-spacing: 0.02em;
         font-style: normal;
 
-        padding-top: 32px; ;
-        padding-bottom: 32px;
     
+        display:block;
       }
      
     
@@ -310,15 +303,11 @@
     
     /* container-team */
 
-.container-team{
-  
-  width: 1200px;
-  padding-left: 15px;
-   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 50px;
+.team-dream{
+
+padding-top: 94px;
+padding-bottom: 50px;
+background-color:var(--accent-bgc-folio);
     
 }
 
@@ -336,11 +325,6 @@ padding: 0px;
   margin-right: 30px;
 }
 
-    
-    .team-dream{
-    background-color:var(--accent-bgc-folio);
-     } 
-    
      .card-item{
       background-color:var(--accent-color-second);
       padding: 0;
@@ -383,19 +367,18 @@ padding: 0px;
       line-height: 1.7;
       color:var(--accent-color-second);
       font-style: normal; 
-      margin-top: 20px;
-      margin-bottom: 9px;
+      display:block;
+      margin: 0;
     }
     
+    .logo-footer{
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.1;
+      padding: 0;
 
-
-    .container-footer{
-    width: 1200px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
     }
-    
 
     .footer-list .random:not(:last-child){
     
@@ -409,10 +392,7 @@ padding: 0px;
     /* Страница портфолио */
     
     /*  cекция кнопок для навигации  */
-    .line-border{
-    border: 1px solid var(--accent-border);
-    }
-  
+
     .cards-views{
       padding-top: 94px;
       padding-bottom: 94px;
@@ -421,6 +401,7 @@ padding: 0px;
       display: flex;
       justify-content: center;
       padding: 0px;
+      margin-bottom: 50px;
       
     }
     
@@ -485,9 +466,7 @@ padding: 0px;
       letter-spacing: 0.06em;
      
     }
-    .random-fr{
-    margin-top: 50px;
-    }
+    
      .card-items{
       border: 1px solid var(--accent-border);
       padding: 20px;
