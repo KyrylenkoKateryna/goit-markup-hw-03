@@ -31,7 +31,7 @@
       }
     
       header{
-        border: 1px solid var(--accent-border);
+        border-bottom: 1px solid var(--accent-border);
       }
 
     .container{
@@ -157,13 +157,16 @@
         line-height: 1.1;
         letter-spacing: 0.02em;
         font-style: normal;
-
-    
+        
         display:block;
       }
      
     
-    
+     .comunication{
+      padding-top: 32px;
+      padding-bottom: 32px;
+     }
+
     .comunication:hover,
     .comunication:focus
     {
@@ -171,6 +174,7 @@
     color:var(--accent-color);
     }
     
+
     
       /* section hero */
     .hero{
@@ -239,6 +243,7 @@
      
       .tools{
       font-size: 16px;
+      text-transform: uppercase;
       line-height:1.1;
       color: var(--title-text-color);
       margin-top: 0;
@@ -282,7 +287,7 @@
     
     
     .flex-element{
-      display: flex;
+     display: flex;
      padding: 0;
     
     }
@@ -360,8 +365,10 @@ padding: 0px;
     background-color:var(--accent-bgc-hero);
     padding-top: 60px;
     padding-bottom: 60px;
+    font-style: normal;
       
     }
+
     .town-adress{
       font-size: 14px;
       line-height: 1.7;
@@ -369,6 +376,8 @@ padding: 0px;
       font-style: normal; 
       display:block;
       margin: 0;
+      padding: 0;
+      
     }
     
     .logo-footer{
@@ -377,7 +386,15 @@ padding: 0px;
       font-size: 26px;
       line-height: 1.1;
       padding: 0;
+      font-family: Raleway,sans-serif;
 
+    }
+
+    .comunications:hover,
+    .comunications:focus
+    {
+
+    color:var(--accent-color);
     }
 
     .footer-list .random:not(:last-child){
